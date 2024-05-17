@@ -11,7 +11,7 @@ function setup() {
       this.services = [
         { url: 'shshami@cisco.com', name: 'Shadi1' },
         { url: 'shshami2@cisco.com', name: 'Shadi2' },
-        { url: 'shshami3@cisco.com', name: 'Shadi3' },
+        { url: 'shshami3@cisco.com', name: 'Shadi300' },
       ];
     },
     get page() {
