@@ -102,9 +102,9 @@ button {
   background-size: cover;
 }
 
-.Loan .avatar { background-image: url('./images/avatar1.png'); }
-.Advice .avatar { background-image: url('./images/avatar2.jpg'); }
-.Credit .avatar { background-image: url('./images/ahauge.png'); }
+.Shadi1 .avatar { background-image: url('./images/avatar1.png'); }
+.Shadi2 .avatar { background-image: url('./images/avatar2.jpg'); }
+.Shadi3 .avatar { background-image: url('./images/ahauge.png'); }
 
 .back {
   position: absolute;

@@ -4,18 +4,14 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: 'erica.talking@ivr.vc',
     services: [],
 
     init() {
-      const params = new URLSearchParams(location.search);
-      if (params.has('number')) {
-        this.dialNumber = params.get('number');
-      }
+
       this.services = [
-        { url: this.dialNumber, name: 'Loan' },
-        { url: this.dialNumber, name: 'Advice' },
-        { url: this.dialNumber, name: 'Credit' },
+        { url: 'shshami@cisco.com', name: 'Shadi1' },
+        { url: 'shshami2@cisco.com', name: 'Shadi2' },
+        { url: 'shshami3@cisco.com', name: 'Shadi3' },
       ];
     },
     get page() {
