@@ -9,9 +9,9 @@ function setup() {
     init() {
 
       this.services = [
-        { url: 'shshami@cisco.com', name: 'Shadi1' },
-        { url: 'shshami2@cisco.com', name: 'Shadi2' },
-        { url: 'shshami3@cisco.com', name: 'Shadi301' },
+        { url: 'saallawa@cisco.com', name: 'Sales' },
+        { url: 'shshami@cisco.com', name: 'Presales' },
+        { url: 'ajarrar@cisco.com', name: 'Partners' },
       ];
     },
     get page() {
